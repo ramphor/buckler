@@ -1,0 +1,21 @@
+{
+    "name": "ramphor/buckler",
+    "description": "The WordPress Optimize Plugin: Speedup & Improve SEO",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ramphor Premium",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ramphor/facades": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ramphor\\Buckler\\": "src"
+        }
+    }
+}
