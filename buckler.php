@@ -9,3 +9,5 @@
  * Tag: speed, seo, optimize, lighthouse
  */
 
+define( 'RAMPHOR_BUCKLER_OPTIMIZER_PLUGIN_FILE', __FILE__ );
+
