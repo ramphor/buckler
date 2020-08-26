@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "ramphor/facades": "dev-master"
+        "ramphor/facades": "dev-master",
+        "ramphor/web-app-manifest": "dev-master"
     },
     "autoload": {
         "psr-4": {
