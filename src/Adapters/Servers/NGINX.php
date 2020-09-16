@@ -1,7 +1,7 @@
 <?php
-namespace Ramphor\Bucker\Adapters\Servers;
+namespace Cheetah\Adapters\Servers;
 
-use Ramphor\Buckler\Abstracts\Server;
+use Cheetah\Abstracts\Server;
 
 class NGINX extends Server
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Ramphor\Buckler;
+namespace Cheetah;
 
 class Buckler
 {

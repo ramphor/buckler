@@ -1,7 +1,7 @@
 <?php
-namespace Ramphor\Buckler\Adapters\Server;
+namespace Cheetah\Adapters\Server;
 
-use Ramphor\Buckler\Abstracts\Server;
+use Cheetah\Abstracts\Server;
 
 class LiteSpeed extends Server
 {

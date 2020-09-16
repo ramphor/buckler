@@ -1,6 +1,6 @@
 <?php
 
-namespace Ramphor\Buckler\Constracts;
+namespace Cheetah\Constracts;
 
 interface ServerContract
 {

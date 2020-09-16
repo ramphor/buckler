@@ -1,5 +1,5 @@
 <?php
-namespace Ramphor\Buckler\Abstracts;
+namespace Cheetah\Abstracts;
 
 abstract class Server
 {
