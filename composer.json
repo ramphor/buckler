@@ -1,5 +1,5 @@
 {
-    "name": "ramphor/buckler",
+    "name": "ramphor/cheetah",
     "description": "The WordPress Optimize Plugin: Speedup & Improve SEO",
     "type": "project",
     "license": "GPL-3.0",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ramphor\\Buckler\\": "src"
+            "Cheetah\\": "src"
         }
     }
 }
