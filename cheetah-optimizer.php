@@ -9,5 +9,24 @@
  * Tag: speed, seo, optimize, lighthouse
  */
 
-define( 'RAMPHOR_CHEETAH_OPTIMIZER_PLUGIN_FILE', __FILE__ );
+if (!defined('RAMPHOR_CHEETAH_OPTIMIZER_PLUGIN_FILE')) {
+    define('RAMPHOR_CHEETAH_OPTIMIZER_PLUGIN_FILE', __FILE__);
+}
 
+$composer_autoload = sprintf('%s/vendor/autoload.php', dirname('RAMPHOR_CHEETAH_OPTIMIZER_PLUGIN_FILE'));
+if (file_exists($composer_autoload)) {
+    require_once $composer_autoload;
+}
+
+if (!class_exists(\Cheetah\Optimizer::class)) {
+    return;
+}
+
+if (!function_exists('cheeta_optimizer')) {
+    function cheeta_optimizer()
+    {
+        $cheeta = \Cheetah\Optimizer::get_instance();
+    }
+}
+
+cheeta_optimizer();

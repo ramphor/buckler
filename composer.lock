@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35fd1389b9e7f2ae2172581c6039617e",
+    "content-hash": "c33d6e7dbd833b5718278f2ce2c94bb8",
     "packages": [
         {
             "name": "matthiasmullie/minify",
@@ -121,12 +121,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/dd738d0b4491f32725492cf345f6b501f5922fec",
+                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec",
                 "shasum": ""
             },
             "require": {
@@ -150,7 +150,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for logging libraries",
@@ -160,7 +160,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2020-03-23T09:12:05+00:00"
+            "time": "2020-09-18T06:44:51+00:00"
         },
         {
             "name": "ramphor/facades",
@@ -168,16 +168,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramphor/facades.git",
-                "reference": "7e4e8c1d209ded0de15a635776261acaf702e40d"
+                "reference": "269b43be37f390e9f54b1e0103d274bf1fe7cba9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramphor/facades/zipball/7e4e8c1d209ded0de15a635776261acaf702e40d",
-                "reference": "7e4e8c1d209ded0de15a635776261acaf702e40d",
+                "url": "https://api.github.com/repos/ramphor/facades/zipball/269b43be37f390e9f54b1e0103d274bf1fe7cba9",
+                "reference": "269b43be37f390e9f54b1e0103d274bf1fe7cba9",
                 "shasum": ""
             },
             "require": {
-                "ramphor/logger": "dev-master"
+                "ramphor/logger": "~1.0.0"
             },
             "type": "library",
             "autoload": {
@@ -199,20 +199,20 @@
                 }
             ],
             "description": "Make the Facades for Laravel lovers",
-            "time": "2020-08-10T09:53:15+00:00"
+            "time": "2020-08-23T03:20:38+00:00"
         },
         {
             "name": "ramphor/logger",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramphor/logger.git",
-                "reference": "59f38cec9af2445e3b84d3a6cd6b09dfb6d123d7"
+                "reference": "2f3933b74b84c2e9414f4bd7dab4ba2304f19e5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramphor/logger/zipball/59f38cec9af2445e3b84d3a6cd6b09dfb6d123d7",
-                "reference": "59f38cec9af2445e3b84d3a6cd6b09dfb6d123d7",
+                "url": "https://api.github.com/repos/ramphor/logger/zipball/2f3933b74b84c2e9414f4bd7dab4ba2304f19e5d",
+                "reference": "2f3933b74b84c2e9414f4bd7dab4ba2304f19e5d",
                 "shasum": ""
             },
             "require": {
@@ -237,8 +237,8 @@
                     "email": "puleeno@gmail.com"
                 }
             ],
-            "description": "Wrap the Monolog library for themes and plugins in WordPress",
-            "time": "2020-08-10T10:15:53+00:00"
+            "description": "Wrap the Monolog library for WordPress themes and plugins",
+            "time": "2020-08-23T03:17:05+00:00"
         },
         {
             "name": "ramphor/web-app-manifest",
@@ -279,5 +279,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
