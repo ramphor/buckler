@@ -13,7 +13,8 @@
     "require": {
         "ramphor/facades": "dev-master",
         "ramphor/web-app-manifest": "dev-master",
-        "matthiasmullie/minify": "1.3.63"
+        "matthiasmullie/minify": "1.3.63",
+        "ramphor/optimize-database": "dev-master"
     },
     "autoload": {
         "psr-4": {
