@@ -29,4 +29,4 @@ if (!function_exists('cheeta_optimizer')) {
     }
 }
 
-cheeta_optimizer();
+$GLOBALS['cheeta'] = cheeta_optimizer();
